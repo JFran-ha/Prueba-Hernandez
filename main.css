@@ -1,0 +1,171 @@
+*{
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 0px;
+margin: 0px;
+}
+
+
+nav{
+
+background: rebeccapurple;
+width: 100%;
+height: 90px;
+
+}
+
+nav ul {
+
+float: right;
+margin-right: 20px;
+
+}
+
+nav ul li {
+
+display: inline-block;
+margin: 0 5px;
+line-height: 85px;
+font-size: 20px;
+margin-right: 0;
+color: white;
+   
+
+
+}
+
+nav ul li a {
+
+    padding: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+div h1 {
+
+    text-align: center;
+    font-size: 60px;
+    margin-top: 25px;
+}
+
+div h2 {
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+}
+
+div p{
+
+    text-align: center;
+}
+a:hover {
+    background-color: white;
+    transition: 1.5s;
+}
+#check {
+    display: none;
+}
+.menuButton {
+    color: rgb(15, 7, 7);
+    cursor: pointer;
+    font-size: 22px;
+    display: none;
+}
+
+@media (max-width: 650px) {
+    ul {
+        background: rebeccapurple;
+        position: fixed;
+        top: 50px;
+        width: 90%;
+        height: 100%;
+        text-align: center;
+        transition: 1s;
+        color: white;
+        box-shadow: 0 0 100px rebeccapurple;
+    }
+
+    nav ul li {
+        display: block;
+        border-bottom: 1px solid white;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    nav ul li:hover {
+        background: rebeccapurple;
+        border-radius: 5px;
+    }
+
+    a:hover {
+        background-color: inherit;
+    }   
+    
+    .menuButton {
+        display: inline;
+    }
+
+    #check:checked ~ ul {
+        left: -400px;
+    }
+    .button{display:inline}
+    
+  
+}
+
+.button{
+
+    border-radius: 20px;
+    color: white;
+    background-color: rebeccapurple;
+    color: white;
+    opacity: 5%;
+    height: 50px;
+    width: 125px;
+    margin-left: 875px;
+    align-items: center;
+    display: inline;
+
+    box-shadow: 15px rgba(114, 89, 255, 0.2);
+}
+ body{
+    background-color: rgba(114, 89, 255, 0.2)
+ }
+
+ div h1:hover{
+
+   font-size: 64px;
+   color: rebeccapurple;
+   transition: 0.5s;
+ }
+ div H2:hover{
+
+    color: rebeccapurple;
+    font-size: 26px;
+    transition: 0.5s;
+ }
+
+ .button:hover{
+     opacity: 0.8;
+     transition: 1.02s;
+     font-size: 15px;
+ }
+ .menuButton{
+     background: rebeccapurple;
+     opacity: 0.8;
+ }
+ 
+ nav{
+
+    box-shadow: 0px 15px 5px rebeccapurple;
+    opacity: 0 200 0;
+   
+ }
+ nav .box-sadow{
+
+    opacity: 150px;
+ }
